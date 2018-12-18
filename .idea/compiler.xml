@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sparrow-all" />
+        <module name="sparrow-client" />
+        <module name="sparrow-common" />
+        <module name="sparrow-monitor" />
+        <module name="sparrow-registry" />
+        <module name="sparrow-server" />
+        <module name="sparrow-springbootClient" />
+        <module name="sparrow-springbootServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sparrow-all" target="1.7" />
+      <module name="sparrow-client" target="1.7" />
+      <module name="sparrow-common" target="1.7" />
+      <module name="sparrow-monitor" target="1.7" />
+      <module name="sparrow-parent" target="1.5" />
+      <module name="sparrow-parent (1) (org.sparrow)" target="1.5" />
+      <module name="sparrow-parent (2) (sparrow)" target="1.5" />
+      <module name="sparrow-registry" target="1.7" />
+      <module name="sparrow-server" target="1.7" />
+      <module name="sparrow-springbootClient" target="1.7" />
+      <module name="sparrow-springbootServer" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
