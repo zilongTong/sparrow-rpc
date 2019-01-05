@@ -16,4 +16,6 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Component //spring 扫描
 public @interface Service {
+    Class<?> interfaceClass() default void.class;
+    String name() default "";
 }

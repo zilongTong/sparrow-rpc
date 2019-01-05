@@ -26,5 +26,7 @@
         <module>sparrow-monitor</module>
         <module>sparrow-springbootServer</module>
         <module>sparrow-springbootClient</module>
+        <module>sparrow-api</module>
+        <module>sparrow-spring</module>
     </modules>
 </project>

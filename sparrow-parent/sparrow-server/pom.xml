@@ -29,6 +29,28 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.sparrow</groupId>
+            <artifactId>sparrow-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sparrow</groupId>
+            <artifactId>sparrow-registry</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--netty-->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.12.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>

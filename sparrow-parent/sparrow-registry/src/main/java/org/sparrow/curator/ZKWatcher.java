@@ -8,9 +8,7 @@ import org.apache.zookeeper.WatchedEvent;
  * <功能详细描述>
  * zookeeper监听节点数据变化
  *
- * @author :tongzilong@mgzf.com
- * @see: [相关类/方法]（可选）
- * @since [产品/模块版本] （可选）
+ * @author :leo
  */
 public class ZKWatcher implements CuratorWatcher {
     private String parentPath;

@@ -20,6 +20,8 @@
         <maven.compiler.target>1.7</maven.compiler.target>
         <springframework.version>[4.3.6.RELEASE,5.0.0.M1)</springframework.version>
         <spring-boot.version>[1.5.0.RELEASE,2.0.0.M1)</spring-boot.version>
+        <protostuff.version>1.0.8</protostuff.version>
+        <netty.version>4.1.12.Final</netty.version>
     </properties>
 
     <dependencies>
@@ -34,6 +36,23 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${springframework.version}</version>
+        </dependency>
+        <!-- protostuff -->
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>${protostuff.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>${protostuff.version}</version>
+        </dependency>
+        <!--netty-->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,31 @@
+package org.sparrow.client;
+
+
+import org.sparrow.register.IServiceDiscovery;
+import org.sparrow.register.ServiceDiscoveryImpl;
+
+/**
+ * <一句话功能简述>
+ * <功能详细描述>
+ *
+ * @author :tongzilong@mgzf.com
+ * @see: [相关类/方法]（可选）
+ * @since [产品/模块版本] （可选）
+ */
+public class ClientTest {
+
+    public static void main(String[] args) {
+        IServiceDiscovery serviceDiscovery = new ServiceDiscoveryImpl();
+        RpcClientProxy proxy = new RpcClientProxy(serviceDiscovery);
+        ILeoService leoService = proxy.create(ILeoService.class);
+        System.out.println("ClientTest-----" + leoService.cool("leo 111111"));
+        System.out.println("----------------------------------------------");
+        System.out.println("ClientTest-----" + leoService.cool("leo 222222"));
+        System.out.println("----------------------------------------------");
+        System.out.println("ClientTest-----" + leoService.cool("leo 333333"));
+        System.out.println("----------------------------------------------");
+        System.out.println("ClientTest-----" + leoService.cool("leo 444444"));
+        System.out.println("----------------------------------------------");
+        System.out.println("ClientTest-----" + leoService.cool("leo 555555"));
+    }
+}

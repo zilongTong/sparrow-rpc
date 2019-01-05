@@ -7,9 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * <一句话功能简述>
  * <功能详细描述>
  *
- * @author :tongzilong@mgzf.com
- * @see: [相关类/方法]（可选）
- * @since [产品/模块版本] （可选）
+ * @author :leo
  */
 public class NamedThreadFactory implements ThreadFactory {
     private static final AtomicInteger POOL_SEQ = new AtomicInteger(1);

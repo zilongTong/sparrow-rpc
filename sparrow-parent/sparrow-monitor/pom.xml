@@ -28,6 +28,11 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <artifactId>sparrow-parent</artifactId>
+            <groupId>org.sparrow</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

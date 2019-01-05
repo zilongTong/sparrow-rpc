@@ -6,18 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="leo_api" />
+        <module name="leo_service" />
+        <module name="leo_web" />
         <module name="sparrow-all" />
+        <module name="sparrow-api" />
         <module name="sparrow-client" />
         <module name="sparrow-common" />
         <module name="sparrow-monitor" />
         <module name="sparrow-registry" />
         <module name="sparrow-server" />
+        <module name="sparrow-spring" />
         <module name="sparrow-springbootClient" />
         <module name="sparrow-springbootServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="leo_api" target="1.6" />
+      <module name="leo_service" target="1.6" />
+      <module name="leo_web" target="1.6" />
       <module name="sparrow-all" target="1.7" />
+      <module name="sparrow-api" target="1.5" />
       <module name="sparrow-client" target="1.7" />
       <module name="sparrow-common" target="1.7" />
       <module name="sparrow-monitor" target="1.7" />
@@ -26,8 +35,10 @@
       <module name="sparrow-parent (2) (sparrow)" target="1.5" />
       <module name="sparrow-registry" target="1.7" />
       <module name="sparrow-server" target="1.7" />
+      <module name="sparrow-spring" target="1.7" />
       <module name="sparrow-springbootClient" target="1.7" />
       <module name="sparrow-springbootServer" target="1.7" />
+      <module name="springboot" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

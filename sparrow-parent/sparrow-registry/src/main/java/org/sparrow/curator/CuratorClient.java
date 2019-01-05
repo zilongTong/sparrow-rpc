@@ -19,9 +19,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
  * <一句话功能简述>
  * <功能详细描述>
  *
- * @author :tongzilong@mgzf.com
- * @see: [相关类/方法]（可选）
- * @since [产品/模块版本] （可选）
+ * @author :leo
  */
 public class CuratorClient {
 
@@ -48,8 +46,8 @@ public class CuratorClient {
 
     private CuratorFramework newCurator(String zkServers) {
         return CuratorFrameworkFactory.builder().connectString(zkServers)
-            .retryPolicy(new RetryNTimes(RETRY_TIME, RETRY_INTERVAL))
-            .connectionTimeoutMs(CONNECT_TIMEOUT).build();
+                .retryPolicy(new RetryNTimes(RETRY_TIME, RETRY_INTERVAL))
+                .connectionTimeoutMs(CONNECT_TIMEOUT).build();
     }
 
     private CuratorClient(String zkServers) {
@@ -99,7 +97,7 @@ public class CuratorClient {
     public String writeNode(String path, String content, CreateMode mode) throws Exception {
         StringBuilder sb = new StringBuilder(path);
         String writePath = curator.create().creatingParentsIfNeeded().withMode(mode)
-            .forPath(sb.toString(), content.getBytes("utf-8"));
+                .forPath(sb.toString(), content.getBytes("utf-8"));
         return writePath;
     }
 
@@ -181,7 +179,7 @@ public class CuratorClient {
                 for (String child : children) {
                     path = basePath + "/" + child;
                     byte[] b = curator.getData().usingWatcher(new ZKWatcher(parentPath, path))
-                        .forPath(path);
+                            .forPath(path);
                     String value = new String(b, "utf-8");
                     if (StringUtils.isNotBlank(value)) {
                         list.add(value);
@@ -265,9 +263,9 @@ public class CuratorClient {
                 cacheMap = new HashMap<String, String>();
             }
             if (event.getType() == Watcher.Event.EventType.NodeDataChanged
-                || event.getType() == Watcher.Event.EventType.NodeCreated) {
+                    || event.getType() == Watcher.Event.EventType.NodeCreated) {
                 byte[] data = curator.getData().
-                    usingWatcher(this).forPath(path);
+                        usingWatcher(this).forPath(path);
                 cacheMap.put(path, new String(data, "utf-8"));
             } else if (event.getType() == Watcher.Event.EventType.NodeDeleted) {
                 cacheMap.remove(path);
@@ -279,7 +277,7 @@ public class CuratorClient {
                     for (String child : children) {
                         String childPath = parentPath + "/" + child;
                         byte[] b = curator.getData().usingWatcher(new ZKWatcher(parentPath, childPath))
-                            .forPath(childPath);
+                                .forPath(childPath);
                         String value = new String(b, "utf-8");
                         if (StringUtils.isNotBlank(value)) {
                             cacheMap.put(childPath, value);

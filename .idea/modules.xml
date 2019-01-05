@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../springbootLeo/leo_api/leo_api.iml" filepath="$PROJECT_DIR$/../springbootLeo/leo_api/leo_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springbootLeo/leo_service/leo_service.iml" filepath="$PROJECT_DIR$/../springbootLeo/leo_service/leo_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springbootLeo/leo_web/leo_web.iml" filepath="$PROJECT_DIR$/../springbootLeo/leo_web/leo_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-api/sparrow-api.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-api/sparrow-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/sparrow-client.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-client/sparrow-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/sparrow-common.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-common/sparrow-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-monitor/sparrow-monitor.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-monitor/sparrow-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-parent.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/sparrow-registry.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/sparrow-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/sparrow-server.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-server/sparrow-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/sparrow-spring.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-spring/sparrow-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/sparrow-springbootClient.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/sparrow-springbootClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/sparrow-springbootServer.iml" filepath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/sparrow-springbootServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springbootLeo/springboot.iml" filepath="$PROJECT_DIR$/../springbootLeo/springboot.iml" />
     </modules>
   </component>
 </project>
