@@ -14,8 +14,6 @@
           <element id="module-output" name="sparrow-spring" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: cglib:cglib:3.1" />
-          <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.21.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.21.RELEASE" />

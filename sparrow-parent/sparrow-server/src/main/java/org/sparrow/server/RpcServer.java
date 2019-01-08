@@ -1,6 +1,5 @@
 package org.sparrow.server;
 
-
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -46,7 +45,7 @@ public class RpcServer implements ApplicationContextAware, InitializingBean {
         Map<String, Object> serviceBeanMap = ctx.getBeansWithAnnotation(Service.class); // 获取所有带有 RpcService 注解的 Spring Bean
         if (MapUtils.isNotEmpty(serviceBeanMap)) {
             for (Object serviceBean : serviceBeanMap.values()) {
-                String interfaceName = serviceBean.getClass().getAnnotation(Service.class).name();
+                String interfaceName = serviceBean.getClass().getAnnotation(Service.class).value();
                 handlerMap.put(interfaceName, serviceBean);
             }
         }

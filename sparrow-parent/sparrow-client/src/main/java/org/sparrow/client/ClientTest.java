@@ -1,8 +1,8 @@
 package org.sparrow.client;
 
 
-import org.sparrow.register.IServiceDiscovery;
-import org.sparrow.register.ServiceDiscoveryImpl;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * <一句话功能简述>
@@ -15,17 +15,16 @@ import org.sparrow.register.ServiceDiscoveryImpl;
 public class ClientTest {
 
     public static void main(String[] args) {
-        IServiceDiscovery serviceDiscovery = new ServiceDiscoveryImpl();
-        RpcClientProxy proxy = new RpcClientProxy(serviceDiscovery);
-        ILeoService leoService = proxy.create(ILeoService.class);
-        System.out.println("ClientTest-----" + leoService.cool("leo 111111"));
-        System.out.println("----------------------------------------------");
-        System.out.println("ClientTest-----" + leoService.cool("leo 222222"));
-        System.out.println("----------------------------------------------");
-        System.out.println("ClientTest-----" + leoService.cool("leo 333333"));
-        System.out.println("----------------------------------------------");
-        System.out.println("ClientTest-----" + leoService.cool("leo 444444"));
-        System.out.println("----------------------------------------------");
-        System.out.println("ClientTest-----" + leoService.cool("leo 555555"));
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("/spring/sparrow_spring.xml");
+//        ILeoService leoService = ctx.getBean(ILeoService.class);
+//        System.out.println("ClientTest-----" + leoService.cool("leo 111111"));
+//        System.out.println("----------------------------------------------");
+//        System.out.println("ClientTest-----" + leoService.cool("leo 222222"));
+//        System.out.println("----------------------------------------------");
+//        System.out.println("ClientTest-----" + leoService.cool("leo 333333"));
+//        System.out.println("----------------------------------------------");
+//        System.out.println("ClientTest-----" + leoService.cool("leo 444444"));
+//        System.out.println("----------------------------------------------");
+//        System.out.println("ClientTest-----" + leoService.cool("leo 555555"));
     }
 }

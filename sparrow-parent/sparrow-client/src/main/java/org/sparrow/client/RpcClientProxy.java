@@ -11,6 +11,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.sparrow.common.RpcEncoder;
 import org.sparrow.common.RpcRequest;
 import org.sparrow.register.IServiceDiscovery;
+import org.sparrow.register.ServiceDiscovery;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -42,7 +43,7 @@ public class RpcClientProxy {
                 request.setTypes(method.getParameterTypes());
                 request.setParams(args);
                 String serviceName = interfaceClass.getSimpleName();
-                String serviceAddress = serviceDiscovery.discovery(serviceName);
+                String serviceAddress = ServiceDiscovery.discovery(serviceName);
                 String[] addrs = serviceAddress.split(":");
                 String ip = addrs[0];
                 int port = NumberUtils.createInteger(addrs[1]);

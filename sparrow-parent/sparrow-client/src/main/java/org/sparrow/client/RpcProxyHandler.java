@@ -26,6 +26,7 @@ public class RpcProxyHandler extends SimpleChannelInboundHandler<ByteBuf> {
         String result = msg.toString(CharsetUtil.UTF_8);
         System.out.println("RpcProxyHandler-----" + result);
         this.response = result;
+        ctx.close();
     }
 
     @Override

@@ -17,5 +17,5 @@ import java.lang.annotation.Target;
 @Component //spring 扫描
 public @interface Service {
     Class<?> interfaceClass() default void.class;
-    String name() default "";
+    String value() default "";
 }

@@ -41,7 +41,6 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
             System.out.println("result-----" + result.toString());
         }
         ctx.writeAndFlush(Unpooled.copiedBuffer(result.toString(), CharsetUtil.UTF_8));
-        ctx.close();
     }
 
     //    @Override
