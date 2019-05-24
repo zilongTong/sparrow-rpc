@@ -11,7 +11,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.sparrow.common.RpcEncoder;
 import org.sparrow.common.RpcRequest;
 import org.sparrow.register.IServiceDiscovery;
-import org.sparrow.register.ServiceDiscovery;
+import org.sparrow.register.ZKDiscoveryCenter;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -22,7 +22,7 @@ import java.net.InetSocketAddress;
  * <一句话功能简述>
  * <功能详细描述>
  *
- * @author :tongzilong@mgzf.com
+ * @author :Leo
  * @see: [相关类/方法]（可选）
  * @since [产品/模块版本] （可选）
  */
@@ -43,7 +43,7 @@ public class RpcClientProxy {
                 request.setTypes(method.getParameterTypes());
                 request.setParams(args);
                 String serviceName = interfaceClass.getSimpleName();
-                String serviceAddress = ServiceDiscovery.discovery(serviceName);
+                String serviceAddress = ZKDiscoveryCenter.discovery(serviceName);
                 String[] addrs = serviceAddress.split(":");
                 String ip = addrs[0];
                 int port = NumberUtils.createInteger(addrs[1]);

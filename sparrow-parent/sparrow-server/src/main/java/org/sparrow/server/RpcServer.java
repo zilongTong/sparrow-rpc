@@ -7,6 +7,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.http2.Http2ConnectionHandler;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.sparrow.common.RpcDecoder;
@@ -25,7 +26,7 @@ import java.util.Map;
  * <一句话功能简述>
  * <功能详细描述>
  *
- * @author :tongzilong@mgzf.com
+ * @author :Leo
  * @see: [相关类/方法]（可选）
  * @since [产品/模块版本] （可选）
  */
@@ -60,7 +61,6 @@ public class RpcServer implements ApplicationContextAware, InitializingBean {
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         ServerBootstrap bootstrap = new ServerBootstrap();
         try {
-
             bootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .childHandler(new ChannelInitializer<SocketChannel>() {

@@ -1,0 +1,138 @@
+package org.sparrow.client;
+
+import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.*;
+import io.netty.channel.nio.NioEventLoopGroup;
+import io.netty.channel.socket.SocketChannel;
+import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.timeout.IdleStateHandler;
+import io.netty.util.HashedWheelTimer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.sparrow.common.*;
+import org.sparrow.utils.NettyChannelLRUMap;
+import org.sparrow.utils.NettyCountDownlatchLRUMap;
+import org.sparrow.utils.NettyResponseLRUMap;
+
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * @ClassName SparrowClient
+ * @Author Leo
+ * @Description //TODO
+ * @Date: 2018/12/31 10:54
+ **/
+public class SparrowClient {
+
+
+    private static final Logger logger = LoggerFactory.getLogger(SparrowClient.class);
+    //链接句柄，复用链接
+    private static final ConcurrentHashMap<String, ChannelFuture> channelFutureConcurrentMap = new ConcurrentHashMap<String, ChannelFuture>();
+
+    protected final HashedWheelTimer timer = new HashedWheelTimer();
+    private String host;
+    private int port;
+    private static int reqtimeout;//请求超时时间
+
+    private Bootstrap bootstrap = new Bootstrap();
+
+
+    public SparrowClient(String host, int port) {
+        this.host = host;
+        this.port = port;
+    }
+
+    public SparrowClient() {
+    }
+
+    ChannelFuture future = null;
+
+    public void connect(final int port, final String host) throws Exception {
+
+        Channel channel = null;
+        String keyString = String.valueOf(host + port);
+        //如果没有新建链接
+//        final RpcClientHandler rpcClientHandler=new RpcClientHandler(bootstrap, timer, host, port, true);
+
+        EventLoopGroup group = new NioEventLoopGroup();
+        bootstrap.group(group).channel(NioSocketChannel.class)
+                .handler(new ChannelInitializer<SocketChannel>() {
+                    @Override
+                    public void initChannel(SocketChannel channel) throws Exception {
+                        channel.pipeline()
+                                .addLast(new RpcEncoder(RpcRequest.class)) // 将 RPC 请求进行编码（为了发送请求）
+                                .addLast(new RpcDecoder(RpcResponse.class)) // 将 RPC 响应进行解码（为了处理响应）
+                                .addLast(new IdleStateHandler(0, 2, 0, TimeUnit.SECONDS))
+                                .addLast(new SparrowClientHandler(bootstrap, timer, host, port, true)); // 使用 SparrowClient 发送 RPC 请求
+                    }
+                })
+                .option(ChannelOption.SO_KEEPALIVE, true);
+        try {
+            future = bootstrap.connect(host, port).sync();
+            RpcRequest request = new RpcRequest();
+            request.setBaseMsg(new PingMsg());
+            future.channel().writeAndFlush(request);
+
+            NettyChannelLRUMap.add(keyString, (SocketChannel) future.channel());
+        } finally {
+        }
+    }
+
+    public RpcResponse send(RpcRequest request) throws Exception {
+        long start = System.currentTimeMillis();
+        String keyString = String.valueOf(host + port);
+        RpcResponse response = new RpcResponse();
+        while (true) {
+            if (NettyChannelLRUMap.get(keyString) != null) {
+                Channel channel = NettyChannelLRUMap.get(keyString);
+                channel.writeAndFlush(request);
+                break;
+            } else {
+                connect(port, host);
+            }
+        }
+        long starts = System.currentTimeMillis();
+        Channel channel = NettyChannelLRUMap.get(keyString);
+        channel.writeAndFlush(request);
+
+        long endtime = System.currentTimeMillis();
+        System.out.println("完成耗时：" + ((endtime - starts) / 1000) + "s");
+//         synchronized (obj) {
+////             obj.wait(reqtimeout); // 未收到响应，使线程等待2000ms
+//        	 obj.wait(5000); // 未收到响应，使线程等待2000ms
+//         }
+        CountDownLatch waitResp = new CountDownLatch(1);
+        NettyCountDownlatchLRUMap.add(request.getRequestId(), waitResp);
+        waitResp.await(reqtimeout, TimeUnit.MILLISECONDS);
+        response = NettyResponseLRUMap.get(request.getRequestId());
+//         for(;;)
+//         {
+//        	 response=NettyResponseLRUMap.get(request.getRequestId());
+//        	 if(null!=response)
+//        	 {
+//        		NettyResponseLRUMap.remove(request.getRequestId());
+//        		break;
+//        	 }
+//         }
+
+
+//         if (response != null) {
+//             future.channel().closeFuture().sync();
+//         }
+//         response=new RpcResponse();
+//         response.setResult("fjdkf");
+        System.out.println("最终返回到客户端的信息:" + response.getResult());
+        return response;
+    }
+
+    public int getReqtimeout() {
+        return reqtimeout;
+    }
+
+    public void setReqtimeout(int reqtimeout) {
+        this.reqtimeout = reqtimeout;
+    }
+
+}

@@ -1,18 +1,19 @@
 package org.sparrow.register;
 
 import org.apache.zookeeper.CreateMode;
-import org.sparrow.curator.CuratorClient;
+import org.sparrow.curator.CuratorManager;
+import org.sparrow.curator.ZKconfig;
 
 /**
  * <一句话功能简述>
  * <功能详细描述>
  *
- * @author :tongzilong@mgzf.com
+ * @author :Leo
  * @see: [相关类/方法]（可选）
  * @since [产品/模块版本] （可选）
  */
-public class RegisterCenterImpl implements IRegisterCenter {
-    private CuratorClient zkClient = CuratorClient.getInstance(ZKconfig.ZK_REGISTER_ADDRESS);
+public class ZKRegisterCenter implements IRegisterCenter {
+
 
     @Override
     public void register(String serviceName, String serviceAddress) {
@@ -20,11 +21,11 @@ public class RegisterCenterImpl implements IRegisterCenter {
         String servicePath = ZKconfig.ZK_REGISTER_PATH + "/" + serviceName;
         String addressPath = servicePath + "/" + serviceAddress;
         try {
-            if (!zkClient.checkPathIsNull(servicePath)) {
-                zkClient.deleteNode(servicePath);
+            if (!CuratorManager.checkExists(servicePath)) {
+                CuratorManager.deleteChildrenIfNeeded(servicePath);
             }
-            zkClient.writeNode(servicePath, "0", CreateMode.PERSISTENT);
-            zkClient.writeNode(addressPath, "0", CreateMode.EPHEMERAL);
+            CuratorManager.createPersistentNode(servicePath, "0");
+            CuratorManager.createEphemeralNode(addressPath, "0");
         } catch (Exception e) {
             System.out.println(e.getCause() + e.getMessage());
         }

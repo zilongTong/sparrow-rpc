@@ -3,6 +3,7 @@ package org.sparrow.common;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
+import org.sparrow.utils.NettyChannelLRUMap;
 
 import java.util.List;
 
@@ -44,7 +45,7 @@ public class RpcDecoder extends ByteToMessageDecoder {
 			e.printStackTrace();
 		}
 
-        Object obj = SerializationUtil.deserialize(data, genericClass);
+        Object obj = NettyChannelLRUMap.SerializationUtil.deserialize(data, genericClass);
         out.add(obj);
     }
 }
