@@ -2,73 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f413cf-2e31-46ba-8a2e-a0025c4598b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/ChannelHandlerHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/util/NettyChannelMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/Bytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ConcurrentLRUHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/MonitorComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/PingMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/SparrowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/annotation/SparrowReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyChannelLRUMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyCountDownlatchLRUMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyResponseLRUMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/CuratorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZKconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ILoadBalanceStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springbootLeo/leo_web/src/main/java/com/leo/controller/RedisSerializeConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-api/src/main/java/org/sparrow/api/ILeoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-api/src/main/java/org/sparrow/api/ILeoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/sparrow-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/sparrow-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcProxyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcProxyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/resources/spring/sparrow_spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/resources/spring/sparrow_spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/sparrow-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/sparrow-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ProtostuffUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ProtostuffUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/SerializationUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/SerializeProtoStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/SerializeProtoStuff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/sparrow-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/sparrow-registry.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/CuratorClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/CuratorClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/NamedThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZKWatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZkStateListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZkStateListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/IRegisterCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/IRegisterCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/IServiceDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/IServiceDiscovery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/RegisterCenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKRegisterCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ServiceDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKDiscoveryCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKconfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/sparrow-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/sparrow-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/ServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/ServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/sparrow-springbootClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/sparrow-springbootClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/sparrow-springbootServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/sparrow-springbootServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-api/sparrow-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-parent.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/ILeoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/ILeoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/mock/LeoServiceMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/mock/LeoServiceMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/stub/LeoServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/stub/LeoServiceStub.java" afterDir="false" />
@@ -117,16 +54,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -142,15 +84,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -177,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -336,142 +269,7 @@
           <expand>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-all" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
@@ -512,7 +310,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558698282066" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558698537964" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/java/org/sparrow" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springbootLeo/pom.xml" />
@@ -644,18 +442,18 @@
       <workItem from="1552362923836" duration="1535000" />
       <workItem from="1552616090593" duration="591000" />
       <workItem from="1558492586940" duration="6836000" />
-      <workItem from="1558578211952" duration="13356000" />
+      <workItem from="1558578211952" duration="13529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111253000" />
+    <option name="totallyTimeSpent" value="111426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05092967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34438157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -696,13 +494,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/resources/META-INF/namespace/reference.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1083,7 +874,7 @@
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1093,12 +884,15 @@
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
