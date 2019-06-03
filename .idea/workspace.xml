@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f413cf-2e31-46ba-8a2e-a0025c4598b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/VMState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/WorkerNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/discovery/ServerDiscoveryAdaptor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springbootLeo/leo_web/src/main/java/com/leo/controller/RedisSerializeConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-all/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-all/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-api/sparrow-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/sparrow-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/sparrow-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-common/sparrow-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-common/sparrow-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-monitor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-monitor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-monitor/sparrow-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-monitor/sparrow-monitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/sparrow-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-registry/sparrow-registry.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/sparrow-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/sparrow-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-spring/sparrow-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-spring/sparrow-spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/sparrow-springbootClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/sparrow-springbootClient.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/sparrow-springbootServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/sparrow-springbootServer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/ILeoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/ILeoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/mock/LeoServiceMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/mock/LeoServiceMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/stub/LeoServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootLeo/leo_api/src/main/java/com/leo/service/stub/LeoServiceStub.java" afterDir="false" />
@@ -55,10 +79,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClient.java">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+            <state relative-caret-position="243">
+              <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKDiscoveryCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,20 +103,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/PingMsg.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcRequest.java">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/discovery/ServerDiscoveryAdaptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+            <state relative-caret-position="58">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,59 +115,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/VMState.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/MsgType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.12.Final/netty-all-4.1.12.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/pom.xml">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+            <state relative-caret-position="578">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/WorkerNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZKconfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/CuratorManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ILoadBalanceStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -163,6 +192,9 @@
       <find>ZK_REGISTER_ADDRESS</find>
       <find>zkCacheMap</find>
       <find>Reference</find>
+      <find>&lt;maven.compiler.target&gt;</find>
+      <find>&lt;maven.compiler.source&gt;</find>
+      <find>&lt;maven.compiler.source&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>Leo</replace>
@@ -174,16 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../springbootLeo/leo_web/src/main/java/com/leo/controller/RedisSerializeConfiguration.java" />
-        <option value="$PROJECT_DIR$/../springbootLeo/leo_web/pom.xml" />
-        <option value="$PROJECT_DIR$/../springbootLeo/leo_web/src/main/java/com/leo/controller/LeoController.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxyFactory.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcProxyHandler.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/RegisterCenterImpl.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZkRegisterCenter.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKconfig.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZookeeperManager.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClient.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/ChannelHandlerHolder.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServer.java" />
@@ -196,7 +218,6 @@
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZKconfig.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ILoadBalanceStrategy.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ZmRemoteClient.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ZmRequestRouting.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/SparrowRefrence.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/SparrowReference.java" />
@@ -205,12 +226,10 @@
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKDiscoveryCenter.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKRegisterCenter.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/Bytes.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ClassUtil.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerConfig.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-api/src/main/java/org/sparrow/api/ILeoService.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringBeanRegistry.java" />
-        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/BizException.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/SparrowException.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/IPUtils.java" />
@@ -225,6 +244,19 @@
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClientHandler.java" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/pom.xml" />
         <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClientHandler.java" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-all/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/discovery/WorkerDiscovery.java" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/WorkerNode.java" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/VMState.java" />
+        <option value="$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/discovery/ServerDiscoveryAdaptor.java" />
       </list>
     </option>
   </component>
@@ -248,8 +280,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-3" />
+    <option name="y" value="1" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -262,55 +295,125 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparrow-all" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sparrow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sparrow-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sparrow" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558698537964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559543427302" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/java/org/sparrow" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springbootLeo/pom.xml" />
@@ -323,9 +426,19 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\leo_src\sparrow-rpc\sparrow-parent" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.sparrow" />
       <recent name="org.sparrow.spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sparrow.bean" />
+      <recent name="org.sparrow.discovery" />
+      <recent name="org.sparrow.client" />
+      <recent name="org.sparrow.common" />
+      <recent name="org.sparrow.common.annotation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\leo_src\sparrow-rpc\sparrow-parent\sparrow-common\src\main\java\org\sparrow\utils" />
@@ -333,16 +446,6 @@
       <recent name="D:\leo_src\sparrow-rpc\sparrow-parent\sparrow-registry\src\main\java\org\sparrow\loadbalance" />
       <recent name="D:\leo_src\sparrow-rpc\sparrow-parent\sparrow-registry\src\main\java\org\sparrow\curator" />
       <recent name="D:\leo_src\springbootLeo\leo_web\src\main\java\com\leo\controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.sparrow.client" />
-      <recent name="org.sparrow.common" />
-      <recent name="org.sparrow.common.annotation" />
-      <recent name="org.sparrow.curator" />
-      <recent name="org.sparrow.proxy.registry" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\leo_src\sparrow-rpc\sparrow-parent" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -442,18 +545,24 @@
       <workItem from="1552362923836" duration="1535000" />
       <workItem from="1552616090593" duration="591000" />
       <workItem from="1558492586940" duration="6836000" />
-      <workItem from="1558578211952" duration="13529000" />
+      <workItem from="1558578211952" duration="15032000" />
+      <workItem from="1558750836500" duration="1778000" />
+      <workItem from="1558923740170" duration="592000" />
+      <workItem from="1559010028585" duration="4434000" />
+      <workItem from="1559096496345" duration="3846000" />
+      <workItem from="1559269233187" duration="2999000" />
+      <workItem from="1559528786809" duration="2005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111426000" />
+    <option name="totallyTimeSpent" value="128583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34438157" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19805983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,7 +593,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32983023" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.07679871" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.03880356" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -494,309 +603,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/resources/spring/sparrow_spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/java/org/sparrow/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ILoadBalanceStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/SparrowReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ZmRemoteClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/IServiceDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKconfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/annotation/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/annotation/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ProtostuffUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKDiscoveryCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/IRegisterCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKRegisterCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/MonitorComponent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/Bytes.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/annotation/SparrowReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-api/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-api/src/main/java/org/sparrow/api/ILeoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="933">
-          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/ChannelHandlerHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/SparrowException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ClassUtil.java" />
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/ConcurrentLRUHashMap.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyChannelLRUMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyCountDownlatchLRUMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyResponseLRUMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/IPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/RpcResponse.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,16 +648,7 @@
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/common/PingMsg.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/RpcClientHandler.java" />
     <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.12.Final/netty-all-4.1.12.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -871,9 +671,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-monitor/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootServer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="738">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -883,16 +702,271 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/SparrowClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+        <state relative-caret-position="1146">
+          <caret line="104" column="12" lean-forward="true" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/sparrow-all.iml">
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/client/util/NettyChannelMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-springbootClient/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/resources/META-INF/spring.schemas">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/resources/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/resources/META-INF/namespace/reference.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/java/org/sparrow/xsd/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/java/org/sparrow/xsd/MyNamespaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-spring/src/main/java/org/sparrow/xsd/MyBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-all/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/registry/SpringConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/IPUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyChannelLRUMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyCountDownlatchLRUMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/utils/NettyResponseLRUMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/src/main/java/org/sparrow/server/RpcServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/ZKconfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/curator/CuratorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/loadbalance/ILoadBalanceStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/WorkerNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-client/src/main/java/org/sparrow/proxy/SparrowProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/register/ZKDiscoveryCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-common/src/main/java/org/sparrow/bean/VMState.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparrow-parent/sparrow-registry/src/main/java/org/sparrow/discovery/ServerDiscoveryAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -36,8 +36,8 @@ public class RpcServerHandler extends SimpleChannelInboundHandler<RpcRequest> {
             System.out.println("2222222");
             Object clazz = handlerMap.get(rpcRequest.getClassName());
             System.out.println("clazz----" + clazz.toString());
-            Method method = clazz.getClass().getMethod(rpcRequest.getMethodName(), rpcRequest.getTypes());
-            result = method.invoke(clazz, rpcRequest.getParams());
+            Method method = clazz.getClass().getMethod(rpcRequest.getMethodName(), rpcRequest.getParameterTypes());
+            result = method.invoke(clazz, rpcRequest.getParameters());
             System.out.println("result-----" + result.toString());
         }
         ctx.writeAndFlush(Unpooled.copiedBuffer(result.toString(), CharsetUtil.UTF_8));

@@ -41,8 +41,8 @@ public class SparrowProxy implements InvocationHandler {
         RpcRequest request = new RpcRequest();
         request.setClassName(method.getDeclaringClass().getSimpleName());
         request.setMethodName(method.getName());
-        request.setTypes(method.getParameterTypes());
-        request.setParams(args);
+        request.setParameterTypes(method.getParameterTypes());
+        request.setParameters(args);
         String serviceName = interfaceClass.getSimpleName();
         if (serviceName.startsWith("I")) {
             serviceName = serviceName.substring(1);
